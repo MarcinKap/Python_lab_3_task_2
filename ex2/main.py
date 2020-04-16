@@ -13,8 +13,9 @@ def main():
     print('najniższy numer to:', end = ' ')
     print(stack.searching_lowest_number())
 
+    print('wypiywanie stosu:')
     while not stack.is_empty():
-        print(stack.top())
+        print(stack.top(), end=' ')
         stack.pop()
 
 if '__main__' == __name__:
